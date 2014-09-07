@@ -30,7 +30,7 @@
 
 \setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig} % The primary font for content text; defines bold, italic and bold-italic as well
 
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-Regular} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
@@ -43,7 +43,7 @@
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
 \begin{textblock}{25}(75,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
+\color{date}\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Last Updated on \today % Last Updated text
 \end{textblock}}
 
@@ -60,8 +60,8 @@ Last Updated on \today % Last Updated text
 \centering{ % Center the contact information
 \color{headings} % Use the headings color
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
-\vspace{-5pt} % Reduce whitespace after the rule slightly
+%\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
+%\vspace{-5pt} % Reduce whitespace after the rule slightly
 }
 
 %----------------------------------------------------------------------------------------
@@ -72,22 +72,51 @@ Last Updated on \today % Last Updated text
 
 \titlespacing{\section}{0pt}{0pt}{0pt} % Removes the spacing around the main section titles
 \titlespacing{\subsection}{0pt}{0pt}{0pt} % Removes the spacing around the subsections
-\newcommand{\sectionspace}{\vspace{8pt}} % Defines a command to add a set amount of space after sections and subsections
+\newcommand{\sectionspace}{\vspace{1pt}} % Defines a command to add a set amount of space after sections and subsections
 
 \titleformat{\section}{ % Customize the large section titles
-\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{16pt}{24pt}\selectfont\bfseries\raggedright}{}{0em}{}[]
 
-\titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\titleformat{\subsection} % Customize the subsections and places worked/studied titles
+{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{0pt}\raggedright\selectfont\bfseries\uppercase}{}{0em}{}[]
+%[runin]{}{}{}{}[]	
 
 \newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Bol}\raggedright\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
+
+\newcommand{\runsection}[1]{ % Customize the large section titles
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{24pt}\selectfont \raggedright {#1}}
+
+\newcommand{\runsectiona}[1]{ % Customize the large section titles
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{24pt}\selectfont {#1}}
+
+
+\newcommand{\runsubsectiona}[1]{ % Used for creating subsections where a description is required on the same line
+\textbullet{}\ \ \color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Bol}\raggedright\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+
+\newcommand{\descripta}[1]{ % Used for describing the subsection either on the same line or underneath
+\color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\newcommand{\descriptb}[1]{ % Used for describing the subsection either on the same line or underneath
+\color{subheadings}\raggedright\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
 
 \newcommand{\location}[1]{ % Used for specifying a duration and/or location under a subsection
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+
+\newcommand{\locationa}[1]{ % Used for specifying a duration and/or location under a subsection
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
+
+
+\newcommand{\dateright}[1]{ % Used for specifying a duration and/or location under a subsection
+\color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+
+\newcommand{\daterighta}[1]{ % Used for specifying a duration and/or location under a subsection
+\color{headings}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION TITLE STYLING AND SPACING
