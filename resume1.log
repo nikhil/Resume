@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Arch Linux) (preloaded format=xelatex 2014.9.4)  7 SEP 2014 14:49
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Arch Linux) (preloaded format=xelatex 2014.9.4)  7 SEP 2014 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,37 +949,37 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 54.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 75.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 76.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 75.
+(Font)              size <5> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 75.
+(Font)              size <5> substituted on input line 76.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 75.
+(Font)              <11> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 75.
+(Font)              <7.69997> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 75.
+(Font)              <5.5> on input line 76.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 75.
+(Font)              size <5> substituted on input line 76.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 150.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 150.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+(Font)              <5> on input line 151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./resume1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 217.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -988,12 +988,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
  22250 strings out of 493725
  406279 string characters out of 6151045
- 464884 words of memory out of 5000000
+ 464881 words of memory out of 5000000
  25406 multiletter control sequences out of 15000+600000
  6140 words of font info for 60 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191

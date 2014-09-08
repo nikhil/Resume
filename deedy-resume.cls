@@ -78,7 +78,7 @@ Last Updated on \today % Last Updated text
 \color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{16pt}{24pt}\selectfont\bfseries\raggedright}{}{0em}{}[]
 
 \titleformat{\subsection} % Customize the subsections and places worked/studied titles
-{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{0pt}\raggedright\selectfont\bfseries\uppercase}{}{0em}{}[]
+{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{0pt}\raggedright\selectfont\bfseries}{}{0em}{}[]
 %[runin]{}{}{}{}[]	
 
 \newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
