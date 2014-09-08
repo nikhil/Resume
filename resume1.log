@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Arch Linux) (preloaded format=xelatex 2014.9.4)  7 SEP 2014 21:43
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Arch Linux) (preloaded format=xelatex 2014.9.4)  8 SEP 2014 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,6 +207,37 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks16
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+(/usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2004/08/31 v1.71 
+\dashlinedash=\dimen117
+\dashlinegap=\dimen118
+\adl@box=\box27
+\adl@height=\dimen119
+\adl@heightsave=\dimen120
+\adl@depth=\dimen121
+\adl@depthsave=\dimen122
+\adl@finaldepth=\dimen123
+\adl@columns=\count103
+\adl@ncol=\count104
+\adl@currentcolumn=\count105
+\adl@currentcolumnsave=\count106
+\adl@totalheight=\count107
+\adl@totalheightsave=\count108
+\adl@dash=\count109
+\adl@gap=\count110
+\adl@cla=\count111
+\adl@clb=\count112
+\adl@everyvbox=\toks17
+\adl@LTpagetotal=\dimen124
+)
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLaTeX
 
@@ -219,7 +250,7 @@ L3 Module: l3bootstrap 2014/05/26 v4889 L3 Bootstrap code
 
 (/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count103
+\et@xins=\count113
 )
 L3 Module: l3names 2014/06/02 v4993 L3 Namespace for primitives
 L3 Module: l3basics 2014/07/09 v5187 L3 Basic definitions
@@ -228,37 +259,37 @@ L3 Module: l3tl 2014/07/17 v5214 L3 Token lists
 L3 Module: l3str 2014/06/19 v5158 L3 Strings
 L3 Module: l3seq 2014/07/18 v5232 L3 Sequences and stacks
 L3 Module: l3int 2014/07/11 v5197 L3 Integers
-\c_max_int=\count104
-\l_tmpa_int=\count105
-\l_tmpb_int=\count106
-\g_tmpa_int=\count107
-\g_tmpb_int=\count108
+\c_max_int=\count114
+\l_tmpa_int=\count115
+\l_tmpb_int=\count116
+\g_tmpa_int=\count117
+\g_tmpb_int=\count118
 L3 Module: l3quark 2014/05/26 v4889 L3 Quarks
 L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
-\g__prg_map_int=\count109
+\g__prg_map_int=\count119
 L3 Module: l3clist 2014/07/19 v5237 L3 Comma separated lists
 L3 Module: l3token 2014/05/26 v4889 L3 Experimental token manipulation
 L3 Module: l3prop 2014/07/17 v5215 L3 Property lists
 L3 Module: l3msg 2014/05/30 v4943 L3 Messages
 L3 Module: l3file 2014/07/09 v5188 L3 File and I/O operations
-\l_iow_line_count_int=\count110
-\l__iow_target_count_int=\count111
-\l__iow_current_line_int=\count112
-\l__iow_current_word_int=\count113
-\l__iow_current_indentation_int=\count114
+\l_iow_line_count_int=\count120
+\l__iow_target_count_int=\count121
+\l__iow_current_line_int=\count122
+\l__iow_current_word_int=\count123
+\l__iow_current_indentation_int=\count124
 L3 Module: l3skip 2014/07/17 v5211 L3 Dimensions and skips
-\c_zero_dim=\dimen115
-\c_max_dim=\dimen116
-\l_tmpa_dim=\dimen117
-\l_tmpb_dim=\dimen118
-\g_tmpa_dim=\dimen119
-\g_tmpb_dim=\dimen120
-\c_zero_skip=\skip44
-\c_max_skip=\skip45
-\l_tmpa_skip=\skip46
-\l_tmpb_skip=\skip47
-\g_tmpa_skip=\skip48
-\g_tmpb_skip=\skip49
+\c_zero_dim=\dimen125
+\c_max_dim=\dimen126
+\l_tmpa_dim=\dimen127
+\l_tmpb_dim=\dimen128
+\g_tmpa_dim=\dimen129
+\g_tmpb_dim=\dimen130
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -266,62 +297,62 @@ L3 Module: l3skip 2014/07/17 v5211 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2014/06/12 v5121 L3 Key-value interfaces
-\g__keyval_level_int=\count115
-\l_keys_choice_int=\count116
+\g__keyval_level_int=\count125
+\l_keys_choice_int=\count126
 L3 Module: l3fp 2014/07/18 v5223 L3 Floating points
-\c__fp_leading_shift_int=\count117
-\c__fp_middle_shift_int=\count118
-\c__fp_trailing_shift_int=\count119
-\c__fp_big_leading_shift_int=\count120
-\c__fp_big_middle_shift_int=\count121
-\c__fp_big_trailing_shift_int=\count122
-\c__fp_Bigg_leading_shift_int=\count123
-\c__fp_Bigg_middle_shift_int=\count124
-\c__fp_Bigg_trailing_shift_int=\count125
+\c__fp_leading_shift_int=\count127
+\c__fp_middle_shift_int=\count128
+\c__fp_trailing_shift_int=\count129
+\c__fp_big_leading_shift_int=\count130
+\c__fp_big_middle_shift_int=\count131
+\c__fp_big_trailing_shift_int=\count132
+\c__fp_Bigg_leading_shift_int=\count133
+\c__fp_Bigg_middle_shift_int=\count134
+\c__fp_Bigg_trailing_shift_int=\count135
 L3 Module: l3box 2014/05/31 v4974 L3 Experimental boxes
-\c_empty_box=\box27
-\l_tmpa_box=\box28
-\l_tmpb_box=\box29
-\g_tmpa_box=\box30
-\g_tmpb_box=\box31
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
 L3 Module: l3coffins 2014/05/28 v4899 L3 Coffin code layer
-\l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen121
-\l__coffin_offset_x_dim=\dimen122
-\l__coffin_offset_y_dim=\dimen123
-\l__coffin_x_dim=\dimen124
-\l__coffin_y_dim=\dimen125
-\l__coffin_x_prime_dim=\dimen126
-\l__coffin_y_prime_dim=\dimen127
-\c_empty_coffin=\box33
-\l__coffin_aligned_coffin=\box34
-\l__coffin_aligned_internal_coffin=\box35
-\l_tmpa_coffin=\box36
-\l_tmpb_coffin=\box37
-\l__coffin_display_coffin=\box38
-\l__coffin_display_coord_coffin=\box39
-\l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen128
-\l__coffin_display_x_dim=\dimen129
-\l__coffin_display_y_dim=\dimen130
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen131
+\l__coffin_offset_x_dim=\dimen132
+\l__coffin_offset_y_dim=\dimen133
+\l__coffin_x_dim=\dimen134
+\l__coffin_y_dim=\dimen135
+\l__coffin_x_prime_dim=\dimen136
+\l__coffin_y_prime_dim=\dimen137
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\l__coffin_display_coffin=\box39
+\l__coffin_display_coord_coffin=\box40
+\l__coffin_display_pole_coffin=\box41
+\l__coffin_display_offset_dim=\dimen138
+\l__coffin_display_x_dim=\dimen139
+\l__coffin_display_y_dim=\dimen140
 L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
 L3 Module: l3candidates 2014/07/18 v5232 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen131
-\l__box_bottom_dim=\dimen132
-\l__box_left_dim=\dimen133
-\l__box_right_dim=\dimen134
-\l__box_top_new_dim=\dimen135
-\l__box_bottom_new_dim=\dimen136
-\l__box_left_new_dim=\dimen137
-\l__box_right_new_dim=\dimen138
-\l__box_internal_box=\box41
-\l__coffin_bounding_shift_dim=\dimen139
-\l__coffin_left_corner_dim=\dimen140
-\l__coffin_right_corner_dim=\dimen141
-\l__coffin_bottom_corner_dim=\dimen142
-\l__coffin_top_corner_dim=\dimen143
-\l__coffin_scaled_total_height_dim=\dimen144
-\l__coffin_scaled_width_dim=\dimen145
+\l__box_top_dim=\dimen141
+\l__box_bottom_dim=\dimen142
+\l__box_left_dim=\dimen143
+\l__box_right_dim=\dimen144
+\l__box_top_new_dim=\dimen145
+\l__box_bottom_new_dim=\dimen146
+\l__box_left_new_dim=\dimen147
+\l__box_right_new_dim=\dimen148
+\l__box_internal_box=\box42
+\l__coffin_bounding_shift_dim=\dimen149
+\l__coffin_left_corner_dim=\dimen150
+\l__coffin_right_corner_dim=\dimen151
+\l__coffin_bottom_corner_dim=\dimen152
+\l__coffin_top_corner_dim=\dimen153
+\l__coffin_scaled_total_height_dim=\dimen154
+\l__coffin_scaled_width_dim=\dimen155
 )
 (/usr/share/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
 File: l3unicode-data.def 2014/06/30 v5166 L3 Unicode data
@@ -331,18 +362,18 @@ File: l3xdvidpfmx.def 2014/07/18 v5232 L3 Experimental driver: xdvipdfmx
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/07/20 v5241 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count126
-\l__xparse_m_args_int=\count127
-\l__xparse_mandatory_args_int=\count128
-\l__xparse_processor_int=\count129
-\l__xparse_v_nesting_int=\count130
+\l__xparse_current_arg_int=\count136
+\l__xparse_m_args_int=\count137
+\l__xparse_mandatory_args_int=\count138
+\l__xparse_processor_int=\count139
+\l__xparse_v_nesting_int=\count140
 )
-\l_fontspec_script_int=\count131
-\l_fontspec_language_int=\count132
-\l_fontspec_strnum_int=\count133
-\l__fontspec_tmpa_dim=\dimen146
-\l__fontspec_tmpb_dim=\dimen147
-\l__fontspec_tmpc_dim=\dimen148
+\l_fontspec_script_int=\count141
+\l_fontspec_language_int=\count142
+\l_fontspec_strnum_int=\count143
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
 Variant \tl_gset:cV already defined; not changing it on line 71
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
@@ -390,9 +421,9 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (/usr/share/texmf-dist/tex/latex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count134
-\tipasavetokens=\toks16
-\tipachecktokens=\toks17
+\tipaTiiicode=\count144
+\tipasavetokens=\toks18
+\tipachecktokens=\toks19
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -408,8 +439,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: xetex.def on input line 91.
 )
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 ))
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -521,7 +552,7 @@ Package graphics Info: Driver file: xetex.def on input line 91.
 .................................................
 Variant \prop_gput:cnV already defined; not changing it on line 662
 Variant \prop_gput:cnx already defined; not changing it on line 663
-\l__fontspec_tmp_int=\count135
+\l__fontspec_tmp_int=\count145
 LaTeX Info: Redefining \itshape on input line 2193.
 LaTeX Info: Redefining \slshape on input line 2198.
 LaTeX Info: Redefining \scshape on input line 2203.
@@ -529,7 +560,7 @@ LaTeX Info: Redefining \upshape on input line 2208.
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 \g__file_internal_ior=\read1
-\g__fontspec_family_Lato-Lig_int=\count136
+\g__fontspec_family_Lato-Lig_int=\count146
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -589,7 +620,7 @@ lor=2B2B2BFF
 . 
 . Raleway-Regular scale = 0.9548943747565479.
 .................................................
-\g__fontspec_family_Raleway-Regular_int=\count137
+\g__fontspec_family_Raleway-Regular_int=\count147
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -629,19 +660,19 @@ Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
 (/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-\TP@textbox=\box42
-\TP@holdbox=\box43
-\TPHorizModule=\dimen151
-\TPVertModule=\dimen152
-\TP@margin=\dimen153
-\TP@absmargin=\dimen154
+\TP@textbox=\box43
+\TP@holdbox=\box44
+\TPHorizModule=\dimen161
+\TPVertModule=\dimen162
+\TP@margin=\dimen163
+\TP@absmargin=\dimen164
 
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen155
-\TP@ox=\dimen156
-\TP@oy=\dimen157
-\TP@tbargs=\toks18
-\TP@prevdepth=\dimen158
+\TPboxrulesize=\dimen165
+\TP@ox=\dimen166
+\TP@oy=\dimen167
+\TP@tbargs=\toks20
+\TP@prevdepth=\dimen168
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texmf-dist/tex/latex/isodate/isodate.sty
 Package: isodate 2010/01/03 v2.30 Print dates with different formats (HH)
@@ -651,7 +682,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count138
+\c@su@anzahl=\count148
 )
 (/usr/share/texmf-dist/tex/latex/isodate/english.idf
 File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
@@ -659,25 +690,25 @@ File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
 
 Define commands for English date format
 )
-\c@iso@tmpmonth=\count139
-\c@iso@yeartwo=\count140
-\c@iso@slash=\count141
-\c@iso@minus=\count142
-\c@iso@dot=\count143
-\c@iso@@slash=\count144
-\c@iso@@minus=\count145
-\c@iso@@dot=\count146
+\c@iso@tmpmonth=\count149
+\c@iso@yeartwo=\count150
+\c@iso@slash=\count151
+\c@iso@minus=\count152
+\c@iso@dot=\count153
+\c@iso@@slash=\count154
+\c@iso@@minus=\count155
+\c@iso@@dot=\count156
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box44
-\beforetitleunit=\skip50
-\aftertitleunit=\skip51
-\ttl@plus=\dimen159
-\ttl@minus=\dimen160
-\ttl@toksa=\toks19
-\titlewidth=\dimen161
-\titlewidthlast=\dimen162
-\titlewidthfirst=\dimen163
+\ttl@box=\box45
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
+\ttl@toksa=\toks21
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
 )) (./fontawesome.sty
 Package: fontawesome 2013/05/10 v3.1.1 font awesome icons
 .................................................
@@ -685,7 +716,7 @@ Package: fontawesome 2013/05/10 v3.1.1 font awesome icons
 . 
 . Font FontAwesome does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_FontAwesome_int=\count147
+\g__fontspec_family_FontAwesome_int=\count157
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -753,14 +784,14 @@ LaTeX Font Info:    ... okay on input line 25.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
-* v-part:(T,H,B)=(21.33955pt, 752.29088pt, 21.33955pt)
+* v-part:(T,H,B)=(14.22636pt, 766.51726pt, 14.22636pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=543.16313pt
-* \textheight=752.29088pt
+* \textheight=766.51726pt
 * \oddsidemargin=-36.70406pt
 * \evensidemargin=-36.70406pt
-* \topmargin=-87.93044pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -778,7 +809,7 @@ LaTeX Font Info:    ... okay on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box45
+\AtBeginShipoutBox=\box46
 Package hyperref Info: Link coloring OFF on input line 25.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -786,7 +817,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count148
+\c@section@level=\count158
 )
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
@@ -862,7 +893,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 25.
  ABD: EveryShipout initializing macros
 isodate: babel.sty, (n)german.sty have not been loaded
-\g__fontspec_family_Lato-Hai_int=\count149
+\g__fontspec_family_Lato-Hai_int=\count159
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -895,7 +926,7 @@ isodate: babel.sty, (n)german.sty have not been loaded
 . and font adjustment code:
 . 
 .................................................
-\g__fontspec_family_Raleway-Medium_int=\count150
+\g__fontspec_family_Raleway-Medium_int=\count160
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -916,7 +947,7 @@ isodate: babel.sty, (n)german.sty have not been loaded
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/sc' undefined
 (Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 48.
 
-\g__fontspec_family_Lato-Bol_int=\count151
+\g__fontspec_family_Lato-Bol_int=\count161
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -949,37 +980,42 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 54.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 76.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 78.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 76.
+(Font)              size <5> substituted on input line 78.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 76.
+(Font)              size <5> substituted on input line 78.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 76.
+(Font)              <11> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 76.
+(Font)              <7.69997> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 76.
+(Font)              <5.5> on input line 78.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 76.
+(Font)              size <5> substituted on input line 78.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 151.
+(Font)              <7> on input line 162.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 151.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+(Font)              <5> on input line 162.
+
+Overfull \hbox (24.1852pt too wide) in paragraph at lines 187--195
+[] [] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./resume1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 231.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -988,15 +1024,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
- 22250 strings out of 493725
- 406279 string characters out of 6151045
- 464881 words of memory out of 5000000
- 25406 multiletter control sequences out of 15000+600000
+ 22501 strings out of 493725
+ 409565 string characters out of 6151045
+ 470259 words of memory out of 5000000
+ 25650 multiletter control sequences out of 15000+600000
  6140 words of font info for 60 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,8n,105p,10380b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,9n,105p,10380b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume1.pdf (1 page).

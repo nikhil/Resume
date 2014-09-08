@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[hmargin=1.25cm, vmargin=0.5cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
 
 %----------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
-
+\usepackage{array,arydshln}
 \definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
 \definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
 \definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
@@ -92,7 +92,7 @@ Last Updated on \today % Last Updated text
 
 
 \newcommand{\runsubsectiona}[1]{ % Used for creating subsections where a description is required on the same line
-\textbullet{}\ \ \color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Bol}\raggedright\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Bol}\raggedright\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
 \color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
