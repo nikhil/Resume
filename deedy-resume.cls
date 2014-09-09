@@ -88,7 +88,7 @@ Last Updated on \today % Last Updated text
 \color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{24pt}\selectfont \raggedright {#1}}
 
 \newcommand{\runsectiona}[1]{ % Customize the large section titles
-\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{24pt}\selectfont {#1}}
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{24pt}\selectfont {#1\quad\quad\quad\quad\quad\quad\quad\quad\quad}}
 
 
 \newcommand{\runsubsectiona}[1]{ % Used for creating subsections where a description is required on the same line
