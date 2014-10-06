@@ -22,6 +22,11 @@
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 \usepackage{fontspec}
 \usepackage{fontawesome}
+\usepackage{color}
+\usepackage{apacite}
+\newcommand{\colorrule}[1]{%
+\begingroup\color{#1}\hrule\endgroup%
+}%
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -48,7 +53,8 @@
 \section{Education} 
 %\hrule \leavevmode \\[1\baselineskip]
 \normalfont
-\hrule height .1pt \leavevmode \\
+\colorrule{black}
+%\hrule \color{red} \leavevmode \\
 \vspace{2 mm}
 
 \runsubsection{Rutgers, The State University of New Jersey}
@@ -69,15 +75,17 @@
 
 \section{Skills}
 \normalfont
-\hrule height .1pt \leavevmode \\
+%\hrule \leavevmode \\[1\baselineskip]
+\colorrule{black}
+%\hrule \leavevmode \\
 \vspace{2 mm}
 \descripta{Undergraduate Coursework:}
 Biomechanics, Data Structures, Organic Chemistry, Computer Architecture \\
 \descripta{Programming:}
-Proficient: Java, Shell, C, Python 
-\ \ | \ \ Basic: R,  Html, JavaScript, CSS, \LaTeX, Matlab,  x86 Assembly \\
+\begin{em}Proficient:\end{em} Java, Shell, C, Python 
+\ \ \ \ \begin{em}Basic:\end{em} R,  Html, JavaScript, CSS, LaTeX, Matlab,  x86 Assembly \\
 \descripta{Environments:}
-Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\ 
+Windows, Linux, Gimp, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform\\ 
 
 \sectionspace % Some whitespace after the section
 
@@ -89,7 +97,9 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 %------------------------------------------------
 \section{Research}
 \normalfont
-\hrule height .1pt \leavevmode \\
+%\hrule \leavevmode \\[1\baselineskip]
+\colorrule{black}
+%\hrule \leavevmode \\
 \vspace{2 mm}
 \runsubsectiona{VerziLab}
 \hfill
@@ -99,7 +109,8 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 \dateright{Spring 2013 – Present}
 \vspace{1 mm}
 \begin{tightitemize}
-	\item Performed Genotypeing,Hematoxylin and Eosin staining, and Immunostaining.
+	\item Conducted and analyzed polymerase chain reaction experiments.
+	\item Performed and examined hematoxylin and eosin staining, and immunostaining.
 \end{tightitemize}		
 \sectionspace % Some whitespace after the section
 \vspace{2 mm}
@@ -113,9 +124,9 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 \dateright{Fall 2013 - Present}
 \vspace{1 mm}
 \begin{tightitemize}
-	\item Independent research with Department Chair Dr. Langrana.
-	\item Compared the difference between Shod Running and Barefoot Running. 
-	\item Manipulated and analyzed Motion Captured data. 
+	\item Independent research with Department Chair Dr. Noshir Langrana.
+	\item Modeled the difference between Shod Running and Barefoot Running. 
+	\item Manipulated Motion Captured data in python. 
  \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -125,7 +136,9 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 %------------------------------------------------
 \section{Work Experience}
 \normalfont
-\hrule height .1pt \leavevmode \\
+%\hrule \leavevmode \\[1\baselineskip]
+\colorrule{black}
+%\hrule \leavevmode \\
 \vspace{2 mm}
 \runsubsectiona{VerziLab}
 \hfill
@@ -148,18 +161,23 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 \dateright{Summer 2010 - Fall 2012}
 \vspace{1 mm}
 \begin{tightitemize}
-	\item Charter Member of the Teen Advisory Board. 
-	\item Organized young adult activity programs.
-	\item Administrator of the Library Teen Facebook page. 
+	\item Organized and administered young adult activity programs.
 \end{tightitemize}
 \sectionspace
 
 \section{Publications}
 \normalfont
-\hrule height .1pt \leavevmode \\
+\colorrule{black}
+%\hrule \leavevmode \\[1\baselineskip]
+%\hrule \leavevmode \\
 \vspace{2 mm}
 \subsection{Peer-Reviewed}
-\quad \ \ \textbullet{} \ \ Chahar, S., Gandhi, V., Yu, S., Desai, K., Cowper-Sal Lari, R., Kim, Y., Perekatt, A. O., Kumar, N., Thackray, J. K., Musolf, A., Kumar, N., Hoffman, A., Londono, D., Vazquez, B. N., Serrano, L., Shin, H., Lupien, M., Gao, N., \& Verzi, M. P. (2014). Chromatin Profiling Reveals Regulatory Network Shifts and a Protective Role for Hepatocyte Nuclear Factor 4$\alpha$ during Colitis. Molecular and cellular biology, 17, 3291–3304.
+\quad \ \ \textbullet{} \ \ Chahar, S., Gandhi, V., Yu, S., Desai, K., Cowper-Sal Lari, R., Kim, Y., Perekatt, A., Kumar, N., Thackray, J., Musolf, A., Kumar, N., Hoffman, A., Londono, D., Vazquez, B., Serrano, L., Shin, H., Lupien, M., Gao, N., \& Verzi, M. P. (2014). Chromatin Profiling Reveals Regulatory Network Shifts and a Protective Role for HNF4$\alpha$ during Colitis. \begin{em}Molecular and cellular biology\end{em}, 17, 3291–3304.
+%\nocite{*}
+%\bibliographystyle{apacite}
+%\bibliography{publications}
+
+
 
 \sectionspace
 
@@ -167,7 +185,9 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 \hfill
 \runsectiona{Activities}
 \vspace{1 mm}
-\hrule height .1pt \leavevmode \\
+%\hrule \leavevmode \\[1\baselineskip]
+\colorrule{black}
+%\hrule \leavevmode \\
 \normalfont
 \vspace{2 mm}
 \normalfont
@@ -176,8 +196,10 @@ Windows, Linux, Git, Excel, Anybody Modeling System, Galaxy Analysis Platform \\
 \begin{minipage}[t]{0.66\textwidth}
 \begin{tabular}{l|c|r}
 2014 & Context.io API Award & HackRU Spring \\
-	2012 & Scholar Athlete Award & High GPA + Varsity Sports \\
-	2010 & Computer Science Award & Top in Computer Science\\
+2012 & James Dickson Carr Award& Scholarship\\
+2012 & Robert E. Slobodien Award& Excellence in Science\\   	
+	%	2012 & Scholar Athlete Award & High GPA + Varsity Sports \\
+%	2010 & Computer Science Award & Top in Computer Science\\
 	& &\\
 	& &\\
 
