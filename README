@@ -1,4 +1,7 @@
-Resume from template by deedydas.
-List of changes from template:
-- integrated Font Awesome icons for displaying contact info.
-- switch to single column 
+## Resume
+Features:
+- Font Awesome icons for displaying contact info.
+- Dual font single column display
+## Running the template:
+Since this template includes a custom font you would need to use the XeLaTeX compiler
+
