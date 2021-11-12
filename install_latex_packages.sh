@@ -1,0 +1,17 @@
+tlmgr update --self
+tlmgr install texliveonfly
+tlmgr install adjustbox
+tlmgr install tcolorbox
+tlmgr install collectbox
+tlmgr install ucs
+tlmgr install environ
+tlmgr install trimspaces
+tlmgr install titling
+tlmgr install enumitem
+tlmgr install rsfs
+tlmgr install isodate
+tlmgr install textpos
+tlmgr install arydshln
+tlmgr install substr
+tlmgr install titlesec
+tlmgr install apacite
